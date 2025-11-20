@@ -5,6 +5,12 @@ This project is an AI-powered heart disease prediction system using **Support Ve
 
 ---
 
+## 🔗 Live Web App  
+Try the interactive app here:  
+**https://aisolutionsbyhassan-codealpha-diseaseprediction-app-gzwulo.streamlit.app/**
+
+---
+
 ## Model Selection
 Multiple models were tested, including **Logistic Regression, Random Forest, XGBoost**, and **SVM**. While Random Forest and XGBoost achieved perfect accuracy on the test set, they showed signs of **overfitting**, and Logistic Regression did not perform as well.  
 
@@ -21,7 +27,7 @@ The **original SVM model** trained on all **14 features** achieved the following
 - **Class 0 (No Heart Disease):** Precision 0.94, Recall 0.90, F1-score 0.92  
 - **Class 1 (Heart Disease):** Precision 0.91, Recall 0.94, F1-score 0.93  
 
->  **Key Insight:** These are the **true, real results** of the model. This represents the best predictive performance achievable.
+> **Key Insight:** These are the **true, real results** of the model. This represents the best predictive performance achievable.
 
 ---
 
@@ -36,7 +42,7 @@ For a **user-friendly interactive app**, the model was reduced to **10 key featu
 - **Class 0 (No Heart Disease):** Precision 0.95, Recall 0.88  
 - **Class 1 (Heart Disease):** Precision 0.89, Recall 0.95  
 
->  **Note:** Slight drop in performance is intentional to **simplify the app interface** while keeping predictions highly reliable.
+> **Note:** Slight drop in performance is intentional to **simplify the app interface** while keeping predictions highly reliable.
 
 ---
 
@@ -51,5 +57,6 @@ The **original SVM model** represents the real strength of this project, while t
 
 Try the app, input your health metrics, and explore **how AI can help predict heart disease risk accurately and interactively**.  
 
->  **Experience it yourself and see the predictive power of SVM in action!**
+> **Experience it yourself and see the predictive power of SVM in action!**
+
 
